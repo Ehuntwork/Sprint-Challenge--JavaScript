@@ -26,13 +26,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+foreach has an action for each element for the current array in an array where as map creates a new array to take action on and change.
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback goes in a HOF.
 
 3. What is closure?
 
+A closed enviorment of code in whic things may come in but never leave.
+
 4. Describe the four rules of the 'this' keyword.
 
+Global Binding: Defaults to refer to othe window.
+
+Impliscit Binding: Only applies to objects with methods.
+
+New Binding: Uses constructive functions to create new things
+
+Exsplicit Binding: Overrides other bindings by using .call and .apply etc
+
 5. Why do we need super() in an extended class?
+
+It will not function without it.
 
 ### Task 1 - Project Set up
 
